@@ -43,3 +43,6 @@ class Complex:
         self.a = self.a + other.a
         self.b = self.b + other.b
         return self
+    
+def create_permutation(n):
+    pass
