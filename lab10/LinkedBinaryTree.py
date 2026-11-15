@@ -43,3 +43,9 @@ def bt_even_sum(root):
         if root.data % 2 == 0:
             total += root.data
         return total
+
+    
+def __contains__(self, item):
+    if self.item is None:
+        return False
+    
